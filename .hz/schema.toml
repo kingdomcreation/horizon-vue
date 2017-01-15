@@ -1,0 +1,11 @@
+[collections.stores]
+
+[collections.networks]
+
+[groups.admin]
+[groups.admin.rules.carte_blanche]
+template = "any()"
+
+[groups.default]
+[groups.default.rules.carte_blanche]
+template = "any()"

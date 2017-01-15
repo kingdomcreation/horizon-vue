@@ -1,0 +1,36 @@
+# Don't ignore .gitkeep
+!.gitkeep
+
+# Database should not be commited to branch
+rethinkdb_data
+
+# Horizon token should remain private
+.hz/secrets.toml
+
+# Ignore dependencies
+node_modules
+bower_components
+
+# Ignore test dependencies
+test/bower_components
+test/unit/coverage
+
+# Don't commit generated files
+.tmp
+dist
+
+# Ignore Node.js / NPM related generated files
+lib-cov
+*.seed
+*.log
+*.out
+*.pid
+npm-debug.log
+npm-debug.log.*
+
+# Prevent common system files from being commited
+*~
+*#
+**/*.log
+.DS_STORE
+thumbs.db
