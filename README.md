@@ -6,7 +6,7 @@
 
 ``` bash
 # install dependencies
-npm install
+npm install && hz init
 
 # start RethinkDB and serve with hot reload at localhost:9090
 npm run rdev
